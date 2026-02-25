@@ -132,7 +132,7 @@ ORDER BY FIELD(booking_window, 'Last Minute', 'Short Term', 'Early Bird');
 | Short Term         | 18.960         | 5.283      | 27,86%        |
 | Early Bird         | 87.541         | 39.316     | 45,91%        |
 
-![Cancelaciones por Antelación](graficos/3_cancelaciones_antelacion_reservas.png)
+![Cancelaciones por Antelación](graficos/3_cancelaciones_antelacion_reserva.png)
 
 #### Conclusión
 Las reservas realizadas con mayor antelación (Early Bird) presentan una tasa de cancelación significativamente más alta (45,91€).
