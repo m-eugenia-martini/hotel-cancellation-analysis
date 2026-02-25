@@ -70,6 +70,8 @@ ORDER BY pct_canceled DESC;
 | City Hotel   | 79.330         | 33.102     | 41,73%        |
 | Resort Hotel | 40.060         | 11.122     | 27,76%        |
 
+![Cancelaciones por Hotel](graficos/1_cancelaciones_tipo_hotel.png)
+
 #### **Conclusión**
 El **City Hotel** presenta una tasa de cancelación significativamente superior (41,73%) frente al Resort Hotel. 
 Esto sugiere que el perfil de cliente urbano podría estar asociado a reservas más flexibles o con mayor incertidumbre, generando mayor volatilidad en ingresos.
@@ -94,6 +96,8 @@ ORDER BY pct_canceled DESC;
 - **Offline TA/TO:** 34,32%
 - **Corporate:** 18,73%
 - **Direct:** 15,34%
+
+![Cancelaciones por Segmento](graficos/2_cancelaciones_segmento_mercado.png)
 
 #### Conclusión
 El segmento Groups presenta la mayor tasa de cancelación, seguido de Online TA y offline TA/TO.
@@ -128,6 +132,8 @@ ORDER BY FIELD(booking_window, 'Last Minute', 'Short Term', 'Early Bird');
 | Short Term         | 18.960         | 5.283      | 27,86%        |
 | Early Bird         | 87.541         | 39.316     | 45,91%        |
 
+![Cancelaciones por Antelación](graficos/3_cancelaciones_antelacion_reservas.png)
+
 #### Conclusión
 Las reservas realizadas con mayor antelación (Early Bird) presentan una tasa de cancelación significativamente más alta (45,91€).
 
@@ -156,7 +162,7 @@ ORDER BY pct_revenue_lost DESC;
 | Offline TA/TO | 8.151.912,73          | 2.492.358,15        | 30,57%    |
 | Direct        | 5.093.028,39          | 993.409,82          | 19,51%    |
 
-
+![Impacto Económico](graficos/4_impacto_economico.png)
 #### Conclusión 
 El segmento Groups no solo presenta la mayor tasa de cancelación, sino también el mayor porcentaje de ingresos perdidos (59,97%).
 
