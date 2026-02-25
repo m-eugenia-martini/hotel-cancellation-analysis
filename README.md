@@ -23,7 +23,6 @@ Se utiliza el Hote Booking Dataset (Kaggle), que contiene información sobre res
 ## Tecnologías utilizadas
 * MySQL — Limpieza, transformación y agregación de datos
 * Pyton (Pandas, Seaborn, Matplotlib) — Análisis exploratorio y visualización
-* Jupyter Notebook — Desarrollo del análisis
 
 ## Proceso en MySQL
 
